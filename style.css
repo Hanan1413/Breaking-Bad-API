@@ -31,11 +31,18 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: 350px;
+  height: 400px; 
+    width: 100%;
+  height: 450px; 
+
+  /* this property will  not stratch the img inside container  */
+  object-fit: cover;
+  object-position: top ;
+
+
+  
 }
-/* .img{
-  width:600px;
-} */
+
 
 .desc {
   padding: 15px;
@@ -68,6 +75,15 @@ div.gallery img {
   #grid {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  div.gallery img {
+  width: 100%;
+  height: 450px; 
+  object-fit: cover;
+  object-position: top ;
+
+  
+}
   .container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
