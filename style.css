@@ -31,12 +31,10 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: 400px; 
-    width: 100%;
-  height: 450px; 
+  height: 350px; 
 
   /* this property will  not stratch the img inside container  */
-  object-fit: cover;
+  object-fit: cover;  
   object-position: top ;
 
 
